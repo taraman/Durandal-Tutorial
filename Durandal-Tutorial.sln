@@ -41,6 +41,66 @@ Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "HTML-Samples", "HTML-Sample
 		VWDPort = "17527"
 	EndProjectSection
 EndProject
+Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "ToDo", "ToDo\", "{05DB08BA-453D-4A47-BA7A-E2F073038185}"
+	ProjectSection(WebsiteProperties) = preProject
+		TargetFrameworkMoniker = ".NETFramework,Version%3Dv4.0"
+		Debug.AspNetCompiler.VirtualPath = "/ToDo"
+		Debug.AspNetCompiler.PhysicalPath = "ToDo\"
+		Debug.AspNetCompiler.TargetPath = "PrecompiledWeb\ToDo\"
+		Debug.AspNetCompiler.Updateable = "true"
+		Debug.AspNetCompiler.ForceOverwrite = "true"
+		Debug.AspNetCompiler.FixedNames = "false"
+		Debug.AspNetCompiler.Debug = "True"
+		Release.AspNetCompiler.VirtualPath = "/ToDo"
+		Release.AspNetCompiler.PhysicalPath = "ToDo\"
+		Release.AspNetCompiler.TargetPath = "PrecompiledWeb\ToDo\"
+		Release.AspNetCompiler.Updateable = "true"
+		Release.AspNetCompiler.ForceOverwrite = "true"
+		Release.AspNetCompiler.FixedNames = "false"
+		Release.AspNetCompiler.Debug = "False"
+		VWDPort = "35244"
+	EndProjectSection
+EndProject
+Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "My-Durandal", "My-Durandal\", "{D8EDEC4F-BF40-4C71-A7F0-80A862532E40}"
+	ProjectSection(WebsiteProperties) = preProject
+		TargetFrameworkMoniker = ".NETFramework,Version%3Dv4.0"
+		Debug.AspNetCompiler.VirtualPath = "/My-Durandal"
+		Debug.AspNetCompiler.PhysicalPath = "My-Durandal\"
+		Debug.AspNetCompiler.TargetPath = "PrecompiledWeb\My-Durandal\"
+		Debug.AspNetCompiler.Updateable = "true"
+		Debug.AspNetCompiler.ForceOverwrite = "true"
+		Debug.AspNetCompiler.FixedNames = "false"
+		Debug.AspNetCompiler.Debug = "True"
+		Release.AspNetCompiler.VirtualPath = "/My-Durandal"
+		Release.AspNetCompiler.PhysicalPath = "My-Durandal\"
+		Release.AspNetCompiler.TargetPath = "PrecompiledWeb\My-Durandal\"
+		Release.AspNetCompiler.Updateable = "true"
+		Release.AspNetCompiler.ForceOverwrite = "true"
+		Release.AspNetCompiler.FixedNames = "false"
+		Release.AspNetCompiler.Debug = "False"
+		VWDPort = "31848"
+	EndProjectSection
+EndProject
+Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "dFiddle-1.2-gh-pages", "dFiddle-1.2-gh-pages\", "{07BFFDD2-EE01-4C36-BA7C-C79F6FAC8FED}"
+	ProjectSection(WebsiteProperties) = preProject
+		TargetFrameworkMoniker = ".NETFramework,Version%3Dv4.0"
+		Debug.AspNetCompiler.VirtualPath = "/dFiddle-1.2-gh-pages"
+		Debug.AspNetCompiler.PhysicalPath = "dFiddle-1.2-gh-pages\"
+		Debug.AspNetCompiler.TargetPath = "PrecompiledWeb\dFiddle-1.2-gh-pages\"
+		Debug.AspNetCompiler.Updateable = "true"
+		Debug.AspNetCompiler.ForceOverwrite = "true"
+		Debug.AspNetCompiler.FixedNames = "false"
+		Debug.AspNetCompiler.Debug = "True"
+		Release.AspNetCompiler.VirtualPath = "/dFiddle-1.2-gh-pages"
+		Release.AspNetCompiler.PhysicalPath = "dFiddle-1.2-gh-pages\"
+		Release.AspNetCompiler.TargetPath = "PrecompiledWeb\dFiddle-1.2-gh-pages\"
+		Release.AspNetCompiler.Updateable = "true"
+		Release.AspNetCompiler.ForceOverwrite = "true"
+		Release.AspNetCompiler.FixedNames = "false"
+		Release.AspNetCompiler.Debug = "False"
+		VWDPort = "41091"
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -50,6 +110,12 @@ Global
 		{E596EA96-147A-4C8E-9E3C-5DB95FBD3C7C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F8A3AFA3-E4BA-41E6-A773-60E468685BE5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{F8A3AFA3-E4BA-41E6-A773-60E468685BE5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{05DB08BA-453D-4A47-BA7A-E2F073038185}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{05DB08BA-453D-4A47-BA7A-E2F073038185}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D8EDEC4F-BF40-4C71-A7F0-80A862532E40}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D8EDEC4F-BF40-4C71-A7F0-80A862532E40}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{07BFFDD2-EE01-4C36-BA7C-C79F6FAC8FED}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{07BFFDD2-EE01-4C36-BA7C-C79F6FAC8FED}.Debug|Any CPU.Build.0 = Debug|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
