@@ -1,0 +1,12 @@
+﻿<form class="form-inline">
+	<div style="margin-top: 20px;margin-bottom: 20px">
+		<label>Name</label>
+		<input type="text" data-bind="value: Name, valueUpdate: 'afterkeydown'" />
+		<button type="submit" class="btn" data-bind="click: SayHello, enable: CanSayHello">Click Me</button>
+	</div>
+
+	<b>Countries</b>
+	<ul data-bind="foreach: Countries">
+		<li data-bind="html: $data"></li>
+	</ul>
+</form>

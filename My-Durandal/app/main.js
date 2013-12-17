@@ -1,5 +1,7 @@
 ﻿requirejs.config({
-    paths: {
+	urlArgs: 'bust=' + (new Date()).getTime(),
+	//urlArgs: 'version=1.0.0', //for depolyment on live
+	paths: {
         'text': '../lib/require/text',
         'durandal':'../lib/durandal/js',
         'plugins' : '../lib/durandal/js/plugins',
@@ -18,23 +20,21 @@
 
 define(['durandal/system', 'durandal/app', 'durandal/viewLocator'],  function (system, app, viewLocator) {
     
-    system.debug(false);
+	//>>excludeStart("build", true);
+	system.debug(true);
+	//>>excludeEnd("build");
     
-
-    app.title = 'Durandal Starter Kit';
+    app.title = 'My Durandal';
 
     app.configurePlugins({
-        router:true,
-        dialog: true,
-        widget: true
+    	router: true,
+    	dialog: true,
+    	widget: true,
+    	observable: true
     });
 
     app.start().then(function() {
-        //Replace 'viewmodels' in the moduleId with 'views' to locate the view.
-        //Look for partial views in a 'views' folder in the root.
         viewLocator.useConvention();
-
-        //Show the app by setting the root view model for our application with a transition.
-        app.setRoot('viewmodels/shell', 'entrance');
+		app.setRoot('shell', 'entrance');
     });
 });

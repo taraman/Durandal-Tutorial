@@ -47,16 +47,24 @@
         });
     });
 
-    var showPlanetElement = function (elem) { if (elem.nodeType === 1) $(elem).hide().slideDown() }
-    var hidePlanetElement = function (elem) { if (elem.nodeType === 1) $(elem).slideUp(function () { $(elem).remove(); }) }
+	var showPlanetElement = function(elem) {
+		if (elem.nodeType === 1)
+			$(elem).hide().slideDown();
+	};
+	var hidePlanetElement = function(elem) {
+		if (elem.nodeType === 1)
+			$(elem).slideUp(function() {
+				$(elem).remove();
+			});
+	};
 
-    return {
-        planets: planets,
-        typeToShow: typeToShow,
-        displayAdvancedOptions: displayAdvancedOptions,
-        addPlanet: addPlanet,
-        planetsToShow: planetsToShow,
-        showPlanetElement: showPlanetElement,
-        hidePlanetElement: hidePlanetElement
-    }
+	return {
+		planets: planets,
+		typeToShow: typeToShow,
+		displayAdvancedOptions: displayAdvancedOptions,
+		addPlanet: addPlanet,
+		planetsToShow: planetsToShow,
+		showPlanetElement: showPlanetElement,
+		hidePlanetElement: hidePlanetElement
+	};
 });
