@@ -101,6 +101,46 @@ Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "dFiddle-1.2-gh-pages", "dFi
 		VWDPort = "41091"
 	EndProjectSection
 EndProject
+Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "dFiddle-2.0-gh-pages", "dFiddle-2.0-gh-pages\", "{6620B310-6890-41A9-8B66-4C622EDF3992}"
+	ProjectSection(WebsiteProperties) = preProject
+		TargetFrameworkMoniker = ".NETFramework,Version%3Dv4.0"
+		Debug.AspNetCompiler.VirtualPath = "/dFiddle-2.0-gh-pages"
+		Debug.AspNetCompiler.PhysicalPath = "dFiddle-2.0-gh-pages\"
+		Debug.AspNetCompiler.TargetPath = "PrecompiledWeb\dFiddle-2.0-gh-pages\"
+		Debug.AspNetCompiler.Updateable = "true"
+		Debug.AspNetCompiler.ForceOverwrite = "true"
+		Debug.AspNetCompiler.FixedNames = "false"
+		Debug.AspNetCompiler.Debug = "True"
+		Release.AspNetCompiler.VirtualPath = "/dFiddle-2.0-gh-pages"
+		Release.AspNetCompiler.PhysicalPath = "dFiddle-2.0-gh-pages\"
+		Release.AspNetCompiler.TargetPath = "PrecompiledWeb\dFiddle-2.0-gh-pages\"
+		Release.AspNetCompiler.Updateable = "true"
+		Release.AspNetCompiler.ForceOverwrite = "true"
+		Release.AspNetCompiler.FixedNames = "false"
+		Release.AspNetCompiler.Debug = "False"
+		VWDPort = "63376"
+	EndProjectSection
+EndProject
+Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "Durandal-Bootstrap3", "Durandal-Bootstrap3\", "{4770C437-6314-47C2-99C0-B9E737E43A37}"
+	ProjectSection(WebsiteProperties) = preProject
+		TargetFrameworkMoniker = ".NETFramework,Version%3Dv4.0"
+		Debug.AspNetCompiler.VirtualPath = "/Durandal-Bootstrap3"
+		Debug.AspNetCompiler.PhysicalPath = "Durandal-Bootstrap3\"
+		Debug.AspNetCompiler.TargetPath = "PrecompiledWeb\Durandal-Bootstrap3\"
+		Debug.AspNetCompiler.Updateable = "true"
+		Debug.AspNetCompiler.ForceOverwrite = "true"
+		Debug.AspNetCompiler.FixedNames = "false"
+		Debug.AspNetCompiler.Debug = "True"
+		Release.AspNetCompiler.VirtualPath = "/Durandal-Bootstrap3"
+		Release.AspNetCompiler.PhysicalPath = "Durandal-Bootstrap3\"
+		Release.AspNetCompiler.TargetPath = "PrecompiledWeb\Durandal-Bootstrap3\"
+		Release.AspNetCompiler.Updateable = "true"
+		Release.AspNetCompiler.ForceOverwrite = "true"
+		Release.AspNetCompiler.FixedNames = "false"
+		Release.AspNetCompiler.Debug = "False"
+		VWDPort = "32566"
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -116,6 +156,10 @@ Global
 		{D8EDEC4F-BF40-4C71-A7F0-80A862532E40}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{07BFFDD2-EE01-4C36-BA7C-C79F6FAC8FED}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{07BFFDD2-EE01-4C36-BA7C-C79F6FAC8FED}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6620B310-6890-41A9-8B66-4C622EDF3992}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6620B310-6890-41A9-8B66-4C622EDF3992}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4770C437-6314-47C2-99C0-B9E737E43A37}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4770C437-6314-47C2-99C0-B9E737E43A37}.Debug|Any CPU.Build.0 = Debug|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

@@ -1,5 +1,6 @@
 ﻿define(['plugins/router', 'knockout'], function(router, ko) {
-    var childRouter = router.createChildRouter()
+	
+	var childRouter = router.createChildRouter()
         .makeRelative({
             moduleId:'ko',
             fromParent:true
@@ -17,16 +18,32 @@
             { route: 'shoppingCart',        moduleId: 'shoppingCart/index',     title: 'Shopping Cart',         type: 'detailed',   nav: true },
             { route: 'twitterClient',       moduleId: 'twitterClient/index',    title: 'Twitter Client',        type: 'detailed',   nav: true }
         ]).buildNavigationModel();
+	
+
+	var init = function () {
+		window.console && console.log('====================');
+		window.console && console.log('=Method: KO.index.init=');
+		window.console && console.log('====================');
+	};
 
     return {
+    	viewUrl: "ko/index.html",
+    	activate: init,
         router: childRouter,
         introSamples: ko.computed(function() {
-            return ko.utils.arrayFilter(childRouter.navigationModel(), function(route) {
+        	window.console && console.log('======================');
+        	window.console && console.log('computed: introSamples');
+        	window.console && console.log('======================');
+
+        	return ko.utils.arrayFilter(childRouter.navigationModel(), function (route) {
                 return route.type == 'intro';
             });
         }),
         detailedSamples: ko.computed(function() {
-            return ko.utils.arrayFilter(childRouter.navigationModel(), function(route) {
+        	window.console && console.log('=========================');
+        	window.console && console.log('computed: detailedSamples');
+        	window.console && console.log('=========================');
+        	return ko.utils.arrayFilter(childRouter.navigationModel(), function (route) {
                 return route.type == 'detailed';
             });
         })

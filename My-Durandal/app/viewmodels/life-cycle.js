@@ -54,8 +54,7 @@
 			attached: function(view, parent) {
 				window.console && console.log('Life Cycle : attached');
 			},
-
-
+			
 			//compositionComplete: function (view) {
 			compositionComplete: function(view, parent) {
 				window.console && console.log('Life Cycle : compositionComplete');
